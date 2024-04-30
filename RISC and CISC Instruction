@@ -7,6 +7,14 @@ instructions that are quicker for the processor to decode and execute. This tran
 processing speeds and lower power consumption – perfect for laptops and smartphones.
 RISC designs are conducive to pipelining, where multiple instructions are overlapped in execution.
 
+RISC provides high performance per watt for battery operated devices where energy efficiency is key.
+A RISC processor executes one action per instruction. By taking just one cycle to complete, operation execution time is optimized.
+Be the architecture uses a fixed length of instruction, it's easier to pipeline.
+RISC (reduced instruction set computer) is a microprocessor that is designed to perform a smaller number of computer instruction types, 
+so it can operate at a higher speed, performing more millions of instructions per second, or MIPS.
+
+Examples of RISC processors include Alpha, ARC, ARM, AVR, MIPS, PA-RISC, PIC, Power Architecture, and SPARC.14
+
 RISC (Reduced Instruction Set Computing):
 Focuses on: Simple, fast execution of basic instructions.
 Supports:
@@ -16,12 +24,17 @@ Supports:
  4.Primarily supports register-to-register operations, keeping data readily available for the
 processor.
 
+
 CISC:
 
 On the other hand, CISC stands for Complex Instruction Set Computing. Here, the processor is
 like your friend who can follow super detailed instructions. CISC processors have a larger set of
 complex instructions that can do multiple things at once,This can be more efficient for certain tasks, especially for older
 operating systems that were designed for CISC.Many CISC instructions are implemented using microcode, which breaks down complex instructions into simpler micro-operations.
+A complex instruction set computer is a computer architecture in which single instructions can execute several low-level operations (such as a load from memory, 
+an arithmetic operation, and a memory store) or are capable of multi-step operations or addressing modes within single instructions.
+
+Some examples of CISC processors include Intel x86 CPUs, System/360, VAX, PDP-11, Motorola 68000 family, and AMD.
 
 CISC (Complex Instruction Set Computing):
 Focuses on: Versatility and reducing program size.
