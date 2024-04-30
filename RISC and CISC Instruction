@@ -13,7 +13,6 @@ Be the architecture uses a fixed length of instruction, it's easier to pipeline.
 RISC (reduced instruction set computer) is a microprocessor that is designed to perform a smaller number of computer instruction types, 
 so it can operate at a higher speed, performing more millions of instructions per second, or MIPS.
 
-![image](https://github.com/ShyamT-23IT149/RISC-and-CISC-Instruction-Set/assets/168494937/3fc7d924-b341-4162-9b50-b5f724bdbf22)
 
 RISC (Reduced Instruction Set Computer):
 
