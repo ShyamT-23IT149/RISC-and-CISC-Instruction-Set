@@ -109,10 +109,10 @@ operations to perform.
 
 ## KEY DIFFERENCE:
 
-  1.Instruction size: RISC - Simple and small, CISC - Complex and can vary in size
-  2.Speed: RISC - Generally faster due to simpler instructions
-  3.Power consumption: RISC - Lower power consumption due to simpler design
-  4.Complexity: RISC - Simpler hardware design, CISC - More complex hardware design
+    1.Instruction size: RISC - Simple and small, CISC - Complex and can vary in size
+    2.Speed: RISC - Generally faster due to simpler instructions
+    3.Power consumption: RISC - Lower power consumption due to simpler design
+    4.Complexity: RISC - Simpler hardware design, CISC - More complex hardware design
 
 So, which one reigns supreme? It's not a clear-cut case. RISC dominates the mobile and modern
 computer landscape due to its efficiency. CISC, however, persists in some older systems and can
