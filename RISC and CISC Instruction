@@ -1,6 +1,6 @@
-RISC and CISC are two instruction styles for processors.
+# RISC and CISC are two instruction styles for processors.
 
-RISC:
+## RISC:
 
 RISC (Reduced Instruction Set Computing) prioritizes simplicity. It utilizes a smaller set of basic
 instructions that are quicker for the processor to decode and execute. This translates to faster
@@ -12,9 +12,6 @@ A RISC processor executes one action per instruction. By taking just one cycle t
 Be the architecture uses a fixed length of instruction, it's easier to pipeline.
 RISC (reduced instruction set computer) is a microprocessor that is designed to perform a smaller number of computer instruction types, 
 so it can operate at a higher speed, performing more millions of instructions per second, or MIPS.
-
-
-
 
 RISC (Reduced Instruction Set Computer):
 
@@ -41,8 +38,8 @@ RISC (Reduced Instruction Set Computer):
 Examples of RISC processors include Alpha, ARC, ARM, AVR, MIPS, PA-RISC, PIC, Power Architecture, and SPARC.14
 
 RISC (Reduced Instruction Set Computing):
-Focuses on: Simple, fast execution of basic instructions.
-Supports:
+## Focuses on: Simple, fast execution of basic instructions.
+## Supports:
  1.Efficient execution in a pipelined processor (instructions overlap execution).
  2.Easy code generation by compilers due to simpler instructions.
  3.Often uses a fixed instruction format for faster decoding.
@@ -50,7 +47,7 @@ Supports:
 processor.
 
 
-CISC:
+## CISC:
 
 On the other hand, CISC stands for Complex Instruction Set Computing. Here, the processor is
 like your friend who can follow super detailed instructions. CISC processors have a larger set of
@@ -58,7 +55,6 @@ complex instructions that can do multiple things at once,This can be more effici
 operating systems that were designed for CISC.Many CISC instructions are implemented using microcode, which breaks down complex instructions into simpler micro-operations.
 A complex instruction set computer is a computer architecture in which single instructions can execute several low-level operations (such as a load from memory, 
 an arithmetic operation, and a memory store) or are capable of multi-step operations or addressing modes within single instructions.
-
 
 
 1. Complex Instructions:
@@ -84,26 +80,26 @@ an arithmetic operation, and a memory store) or are capable of multi-step operat
 Some examples of CISC processors include Intel x86 CPUs, System/360, VAX, PDP-11, Motorola 68000 family, and AMD.
 
 CISC (Complex Instruction Set Computing):
-Focuses on: Versatility and reducing program size.
-Supports:
+### Focuses on: Versatility and reducing program size.
+### Supports:
  1.A wider range of complex instructions that can perform multiple operations at once.
  2.Various addressing modes for accessing data in memory, offering flexibility.
  3.Instructions can be variable in size and complexity.
  4.May support direct memory operations, reducing the needs separate load/store instructions
 (RISC approach).
 
-Hybrid Architectures:
+## Hybrid Architectures:
     Many modern processors incorporate elements of both RISC and CISC architectures.
     These hybrid architectures aim to combine the simplicity and efficiency of RISC with the flexibility and ease of use of CISC.
     Examples include x86 processors, which have a complex instruction set but internally use micro-operations that resemble RISC instructions.
 
-OVERLAP:
+## OVERLAP:
  *Both RISC and CISC instruction sets ultimately support the execution of programs and
 instructions.
  *They both provide a way for the programmer (or compiler) to tell the processor what
 operations to perform.
 
-KEY DIFFERENCE:
+## KEY DIFFERENCE:
 
   1.Instruction size: RISC - Simple and small, CISC - Complex and can vary in size
   2.Speed: RISC - Generally faster due to simpler instructions
@@ -114,7 +110,7 @@ So, which one reigns supreme? It's not a clear-cut case. RISC dominates the mobi
 computer landscape due to its efficiency. CISC, however, persists in some older systems and can
 be useful for specific tasks.
 
-CONCLUSION:
+## CONCLUSION:
 
 RISC architectures focus on simplicity and efficiency, with a streamlined instruction set optimized for fast execution and compiler optimization. 
 CISC architectures, on the other hand, offer a richer set of complex instructions, which can sometimes lead to more efficient code in terms of instruction count and code density.
