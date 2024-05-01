@@ -1,6 +1,6 @@
 # RISC and CISC are two instruction styles for processors.
 
-## RISC:
+# RISC:
 
 RISC (Reduced Instruction Set Computing) prioritizes simplicity. It utilizes a smaller set of basic
 instructions that are quicker for the processor to decode and execute. This translates to faster
@@ -38,7 +38,8 @@ RISC (Reduced Instruction Set Computer):
 Examples of RISC processors include Alpha, ARC, ARM, AVR, MIPS, PA-RISC, PIC, Power Architecture, and SPARC.14
 
 RISC (Reduced Instruction Set Computing):
-## Focuses on: Simple, fast execution of basic instructions.
+## Focuses on:
+ Simple, fast execution of basic instructions.
 ## Supports:
  1.Efficient execution in a pipelined processor (instructions overlap execution).
  2.Easy code generation by compilers due to simpler instructions.
@@ -46,8 +47,11 @@ RISC (Reduced Instruction Set Computing):
  4.Primarily supports register-to-register operations, keeping data readily available for the
 processor.
 
+![image](https://github.com/ShyamT-23IT149/RISC-and-CISC-Instruction-Set/assets/168494937/678e3cfd-84e4-4c58-a3d4-dea9ad7c1c85)
 
-## CISC:
+
+
+# CISC:
 
 On the other hand, CISC stands for Complex Instruction Set Computing. Here, the processor is
 like your friend who can follow super detailed instructions. CISC processors have a larger set of
@@ -80,7 +84,8 @@ an arithmetic operation, and a memory store) or are capable of multi-step operat
 Some examples of CISC processors include Intel x86 CPUs, System/360, VAX, PDP-11, Motorola 68000 family, and AMD.
 
 CISC (Complex Instruction Set Computing):
-### Focuses on: Versatility and reducing program size.
+### Focuses on:
+Versatility and reducing program size.
 ### Supports:
  1.A wider range of complex instructions that can perform multiple operations at once.
  2.Various addressing modes for accessing data in memory, offering flexibility.
@@ -88,15 +93,18 @@ CISC (Complex Instruction Set Computing):
  4.May support direct memory operations, reducing the needs separate load/store instructions
 (RISC approach).
 
+![image](https://github.com/ShyamT-23IT149/RISC-and-CISC-Instruction-Set/assets/168494937/740e347e-0cd9-45ca-8f06-e9ef6fc1c6a6)
+
+
 ## Hybrid Architectures:
-    Many modern processors incorporate elements of both RISC and CISC architectures.
-    These hybrid architectures aim to combine the simplicity and efficiency of RISC with the flexibility and ease of use of CISC.
-    Examples include x86 processors, which have a complex instruction set but internally use micro-operations that resemble RISC instructions.
+  Many modern processors incorporate elements of both RISC and CISC architectures.
+These hybrid architectures aim to combine the simplicity and efficiency of RISC with the flexibility and ease of use of CISC.
+Examples include x86 processors, which have a complex instruction set but internally use micro-operations that resemble RISC instructions.
 
 ## OVERLAP:
- *Both RISC and CISC instruction sets ultimately support the execution of programs and
+  Both RISC and CISC instruction sets ultimately support the execution of programs and
 instructions.
- *They both provide a way for the programmer (or compiler) to tell the processor what
+  They both provide a way for the programmer (or compiler) to tell the processor what
 operations to perform.
 
 ## KEY DIFFERENCE:
